@@ -1,0 +1,16 @@
+Runner up score:-
+
+list1 =[2,3,6,6,5]
+list = set(list1)
+list.remove(max(list))
+print(max(list))
+
+Missing Number:-
+
+arr = [3,5,2,6,8,1,7,9,10]
+elements = []
+for ele in range(arr[0], arr[-1]+1):
+    if ele not in arr:
+        elements.append(ele)
+print(elements)
+
